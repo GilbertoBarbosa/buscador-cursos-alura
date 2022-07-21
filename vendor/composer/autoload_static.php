@@ -17,6 +17,7 @@ class ComposerStaticInitb54eae9e489c4fb2cadf2c7bc4cd9ffe
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '88d0b13026695a167eb57822433d5f48' => __DIR__ . '/../..' . '/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -40,6 +41,10 @@ class ComposerStaticInitb54eae9e489c4fb2cadf2c7bc4cd9ffe
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+        ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeCursos\\' => 23,
         ),
     );
 
@@ -92,6 +97,10 @@ class ComposerStaticInitb54eae9e489c4fb2cadf2c7bc4cd9ffe
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Alura\\BuscadorDeCursos\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
@@ -100,6 +109,8 @@ class ComposerStaticInitb54eae9e489c4fb2cadf2c7bc4cd9ffe
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'Teste' => __DIR__ . '/../..' . '/Teste.php',
+        'Teste2' => __DIR__ . '/../..' . '/Teste.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
