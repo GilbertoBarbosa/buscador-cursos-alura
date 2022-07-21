@@ -1,0 +1,18 @@
+{
+    "name": "gilbertobarbosa/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gilbertobarbosa\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gilberto Barbosa",
+            "email": "gisantos555@gmail.com"
+        }
+    ],
+    "require": {}
+}
