@@ -3,16 +3,15 @@
     "description": "Projeto que busca os cursos no site da Alura",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Gilbertobarbosa\\BuscadorCursos\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Gilberto Barbosa",
             "email": "gisantos555@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2"
+    }
 }
