@@ -3,7 +3,7 @@
         'name' => 'gilbertobarbosa/buscador-cursos',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'bd2b9e5a8cc24855da917f05b248933fdbea037f',
+        'reference' => '286815d683e315ae859ea539bc234d6c213c15de',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -58,7 +58,7 @@
         'gilbertobarbosa/buscador-cursos' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'bd2b9e5a8cc24855da917f05b248933fdbea037f',
+            'reference' => '286815d683e315ae859ea539bc234d6c213c15de',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
